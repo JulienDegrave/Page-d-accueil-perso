@@ -1,0 +1,152 @@
+
+
+body
+{
+    margin-left: 3%;
+    width: 90vw;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 25% repeat(4, 1fr);
+    background-image: url("image/39608.jpg");
+}
+
+#search
+{
+    grid-column: 2;
+    text-align: center;
+    margin-top: 20%;
+    margin-right: 3%;
+}
+
+#search input
+{
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+    border-color: black;
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.icone_left
+{
+    margin-left: 20%;
+    grid-column: 1;
+}
+
+.icone_right
+{
+    grid-column: 3;
+}
+
+a img
+{
+    height: auto;
+    width: 50%;
+    transition: all 0.5s;
+}
+a img:hover
+{
+    width: 55%;
+    bo
+}
+
+#fb
+{
+    grid-row: 2;
+}
+
+#mess
+{
+    grid-row: 3;
+}
+
+#insta  
+{
+    grid-row: 4;
+}
+
+#you
+{
+    margin-left: -12px;
+    width: 135%;
+    grid-row: 2;
+    z-index: 20;
+}
+
+.cache
+{
+    display: none;
+    grid-column: 2;
+    grid-row: 2;
+    text-align: right;
+    margin-right: -2%;
+    margin-top: 2%; 
+    border-radius: 20px;
+}
+
+.cache input
+{
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+    border-color: black;
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.cache:hover
+{
+    display: block;
+    
+    border-radius: 20px;
+}
+#you:hover + .cache
+{
+    display: block;
+}
+
+#drive
+{
+    grid-row: 3;
+}
+
+#net
+{
+    grid-row: 4;
+    z-index: 20;
+}
+
+.cache_2 input
+{
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+    border-color: black;
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.cache_2
+{
+    display: none;
+    grid-column: 2;
+    grid-row: 4;
+    text-align: right;
+    margin-right: -2%;
+    margin-top: 2%; 
+}
+
+.cache_2:hover
+{
+    display: block;
+}
+
+#net:hover + .cache_2
+{
+    display: block;
+}
