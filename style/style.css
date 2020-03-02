@@ -21,6 +21,7 @@ body
 
 #search input
 {
+    color: azure;
     width: 20%;
     height: 30px;
     border-radius: 20px;
@@ -28,6 +29,13 @@ body
     outline: none;
     padding-left: 10px;
     font-size: 20px;
+    transition: background-color 0.8s;
+}
+
+#search input:hover
+{
+   background-color: rgb(0, 0, 0);
+   border-color: white;
 }
 
 .icone_left
@@ -50,7 +58,6 @@ a img
 a img:hover
 {
     width: 55%;
-    bo
 }
 
 #fb
