@@ -118,13 +118,17 @@ a img:hover
 
 #drive
 {
-    grid-row: 3;
+    grid-row: 4;
 }
 
 #net
 {
-    grid-row: 4;
+    grid-row: 3;
     z-index: 20;
+}
+#mail
+{
+    grid-row: 5;
 }
 
 .cache_2 input
@@ -142,7 +146,7 @@ a img:hover
 {
     display: none;
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 3;
     text-align: right;
     margin-right: -2%;
     margin-top: 2%; 
