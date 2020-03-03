@@ -118,7 +118,13 @@ a img:hover
 
 #drive
 {
+    grid-row: 5;
+}
+
+#prime
+{
     grid-row: 4;
+    z-index: 20;
 }
 
 #net
@@ -158,6 +164,38 @@ a img:hover
 }
 
 #net:hover + .cache_2
+{
+    display: block;
+}
+
+
+.cache_3 input
+{
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+    border-color: black;
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.cache_3
+{
+    display: none;
+    grid-column: 2;
+    grid-row: 4;
+    text-align: right;
+    margin-right: -2%;
+    margin-top: 2%; 
+}
+
+.cache_3:hover
+{
+    display: block;
+}
+
+#prime:hover + .cache_3
 {
     display: block;
 }
